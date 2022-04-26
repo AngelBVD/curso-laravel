@@ -14,9 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return "raiz";
-});
-
-Route::get('/bienvenida', function () {
     return view('welcome');
 });
+
